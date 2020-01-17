@@ -1,0 +1,12 @@
+Socket.io
+
+- Real-time communication
+
+  Server listens to connections from clients (to initiate an http channel)
+
+  app (express application),
+  server = http.createServer(app)
+  io = socketio(server)
+  io.on('connection', (socket) => {
+
+  })
